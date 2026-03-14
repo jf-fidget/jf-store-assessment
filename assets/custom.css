@@ -78,3 +78,28 @@ div.header__columns {
 [style*="--font-family: integral-cf"] * {
     font-family: 'IntegralCF', sans-serif !important;
 }
+
+.header__columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.hero__container .hero__content-wrapper.page-width {
+    grid-column: 1 / 3;
+    margin-left: 100px;
+}
+
+.home-icon-columns.group-block .group-block-content img {
+    max-height: 38px;
+    height: 38px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.group-block.header-group {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.group-block.header-group:last-child {
+    border-right: none;
+}
